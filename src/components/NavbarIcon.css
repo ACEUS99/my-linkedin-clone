@@ -1,0 +1,53 @@
+.navbar--icon{
+    text-align: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.navbar--icon:hover,
+.navbar--icon:active,
+.navbar--icon:focus{
+    color: black;
+}
+
+.navbar--icon_title {
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+
+.avatar--icon{
+    object-fit: contain;
+    height: 28px !important;
+    width: 28px !important;
+}
+
+
+
+@media (max-width: 854px){
+    .navbar--icon_title {
+        display: none
+    }
+
+    .navbar--icon_individual{
+        font-size: 30px !important;
+    }
+
+}
+
+@media (max-width: 500px){
+  
+    .navbar--icon_individual{
+        font-size: 25px !important;
+    }
+
+    .avatar--icon{
+        object-fit: contain;
+        height: 24px !important;
+        width: 24px !important;
+    }
+
+}
+
+
